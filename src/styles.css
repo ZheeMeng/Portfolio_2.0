@@ -9,8 +9,7 @@ body {
 }
 
 section {
-    height: 500px;
-    background-color: rgb(98, 92, 107);
+    color: white;
 }
 
 footer {
@@ -54,6 +53,7 @@ h1 {
 p {
     margin: 0;
     font-size: 30px;
+    font-weight: 300;
 }
 
 .hero-area {
@@ -78,4 +78,25 @@ p {
 
 .logo:hover {
     fill: rgb(44, 43, 51);
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: rgb(98, 92, 107)
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px; 
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
