@@ -83,6 +83,7 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
     padding: 80px;
     background-color: rgb(98, 92, 107)
 }
