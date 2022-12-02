@@ -10,12 +10,6 @@ body {
 
 section {
     color: white;
-    background-color: rgb(98, 92, 107)
-}
-
-footer {
-    height: 500px;
-    background-color: rgb(79, 75, 85);
 }
 
 nav {
@@ -86,6 +80,7 @@ p {
     justify-content: space-around;
     gap: 20px;
     padding: 80px;
+    background-color: rgb(98, 92, 107);
 }
 
 h2 {
@@ -103,6 +98,14 @@ h2 {
     align-items: center;
 }
 
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: rgb(81, 77, 88);
+}
+
 .project-container {
     display: flex;
     justify-content: space-around;
@@ -115,9 +118,7 @@ h2 {
     box-shadow: 5px 5px 20px black;
 }
 
-.sub-section-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
+footer {
+    height: 500px;
+    background-color: rgb(69, 66, 73);
 }
