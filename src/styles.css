@@ -10,6 +10,7 @@ body {
 
 section {
     color: white;
+    background-color: rgb(98, 92, 107)
 }
 
 footer {
@@ -85,7 +86,6 @@ p {
     justify-content: space-around;
     gap: 20px;
     padding: 80px;
-    background-color: rgb(98, 92, 107)
 }
 
 h2 {
@@ -95,9 +95,29 @@ h2 {
 .headshot {
     width: 300px;
     border-radius: 150px; 
+    box-shadow: 5px 5px 20px black;
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
 }
